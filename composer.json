@@ -1,0 +1,25 @@
+{
+    "name": "lugmety/authentication",
+    "description": "This package is mainly used for user authentication, customer header via middleware",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lugmety\\Auth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lugmety\\Auth\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lugmety"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.2.x-dev"
+    }
+}
